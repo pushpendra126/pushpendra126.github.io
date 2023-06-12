@@ -1,0 +1,74 @@
+@font-face {
+  	font-family: 'Carrington Regular';
+  	font-style: normal;
+  	font-weight: 400;
+  	font-display: block;
+  	display: swap;
+  	src: url("../fonts/Carrington.ttf") format("ttf"); 
+}
+
+
+@font-face {
+  	font-family: Poppins;
+  	font-style: normal;
+  	font-weight: 400;
+  	font-display: block;
+  	display: swap;
+  	src: url("../fonts/Poppins-Regular.ttf") format("ttf"); 
+}
+@font-face {
+  	font-family: Poppins;
+  	font-style: italic;
+  	font-weight: 400;
+  	font-display: block;
+  	display: swap;
+  	src: url("../fonts/Poppins-Italic.ttf") format("ttf"); 
+}
+@font-face {
+  	font-family: Poppins;
+  	font-style: normal;
+  	font-weight: 500;
+  	font-display: block;
+  	display: swap;
+  	src: url("../fonts/Poppins-Medium.ttf") format("ttf"); 
+}
+@font-face {
+  	font-family: Poppins;
+  	font-style: italic;
+  	font-weight: 500;
+  	font-display: block;
+  	display: swap;
+  	src: url("../fonts/Poppins-MediumItalic.ttf") format("ttf"); 
+}
+@font-face {
+  	font-family: Poppins;
+  	font-style: normal;
+  	font-weight: 600;
+  	font-display: block;
+  	display: swap;
+  	src: url("../fonts/Poppins-SemiBold.ttf") format("ttf"); 
+}
+@font-face {
+  	font-family: Poppins;
+  	font-style: italic;
+  	font-weight: 600;
+  	font-display: block;
+  	display: swap;
+  	src: url("../fonts/Poppins-SemiBoldItalic.ttf") format("ttf"); 
+}
+@font-face {
+  	font-family: Poppins;
+  	font-style: normal;
+  	font-weight: 700;
+  	font-display: block;
+  	display: swap;
+  	src: url("../fonts/Poppins-Bold.ttf") format("ttf"); 
+}
+@font-face {
+  	font-family: Poppins;
+  	font-style: italic;
+  	font-weight: 700;
+  	font-display: block;
+  	display: swap;
+  	src: url("../fonts/Poppins-BoldItalic.ttf") format("ttf"); 
+}
