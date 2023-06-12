@@ -1,0 +1,392 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Sunrise Impex / Check Out</title>
+
+	<!-- Required meta tags -->
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<!-- CSS Main Path -->
+	<link rel="stylesheet" type="text/css" href="assets/css/bootstrap.css">
+	<link rel="stylesheet" type="text/css" href="assets/css/slick.css">
+	<link rel="stylesheet" type="text/css" href="assets/css/fancybox.css">
+	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+
+	<!-- Fonts CSS Main Path -->
+	<link rel="stylesheet" type="text/css" href="assets/css/fontawesome.css">
+	<link rel="stylesheet" type="text/css" href="assets/css/fonts.css">
+
+	
+</head>
+<body>
+
+<header class="header_wrapp header_white">
+	<div class="container">
+		<div class="row">
+			<div class="d-flex justify-content-between align-items-start flex-sm-row flex-column col-md-12">
+				<div class="logo_main">
+					<a href="index.html">
+						<img width="175" src="assets/imgs/no-cheeni-logo.png" alt="No Cheeni">
+					</a>
+				</div>
+
+				<div class="menu_bar">
+					<nav class="navbar navbar-expand-lg navbar-light bg-light">
+
+					    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+					      	<span class="navbar-toggler-icon"></span>
+					    </button>
+
+			    		<div class="collapse navbar-collapse" id="navbarNavDropdown">
+					    	<ul class="navbar-nav">
+						        <li class="nav-item">
+						          	<a class="nav-link" href="index.html">Home</a>
+						        </li>
+						        <li class="nav-item">
+						          	<a class="nav-link" href="about.html">About</a>
+						        </li>
+						        <li class="nav-item">
+						          	<a class="nav-link" href="#">Products</a>
+						        </li>
+						        <li class="nav-item">
+						          	<a class="nav-link" href="launch-your-brand.html">Launch your brand</a>
+						        </li>
+						        <li class="nav-item">
+						          	<a class="nav-link" href="blog.html">Blog</a>
+						        </li>
+						        <li class="nav-item">
+						          	<a class="nav-link" href="contact-us.html">Contact us</a>
+						        </li>
+					      	</ul>
+					    </div>
+					</nav>
+				</div>
+
+				<div class="header_right">
+					<ul>
+						<li>
+							<a href="#">
+								<span class="fa-regular fa-phone-volume"></span>
+							</a>
+						</li>
+						<li>
+							<a href="#">
+								<span class="fa-regular fa-heart"></span>
+							</a>
+						</li>
+						<li>
+							<a href="#">
+								<span class="fa-regular fa-user"></span>
+							</a>
+						</li>
+						<li>
+							<a href="#">
+								<span class="fa-regular fa-cart-shopping"></span>
+								<span class="cart">0</span>
+							</a>
+						</li>
+					</ul>
+				</div>
+
+			</div>
+		</div>
+	</div>
+</header>
+
+<div class="main_wrapper">
+	<div class="banner_wrapp bannermain">
+		<div class="banner_img">
+			<img src="assets/imgs/checkout-img.png" alt="contact">
+		</div>
+		<div class="container">
+			<div class="row">
+				<div class="col-md-12 text-center">
+					<div class="banner_content">
+						<h1>Delivery</h1>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="setsapartbg">
+			<img src="assets/imgs/union-img.png" alt="union-img">
+		</div>
+
+		<div class="bannerbg">
+			<img src="assets/imgs/path-bg.png" alt="path-bg">
+		</div>
+	</div>	
+
+	<section class="delivery_wrapp">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-8">
+					<div class="delivery_main">
+						<div class="main_heading">
+							<h2>Delivery Address</h2>
+						</div>
+
+						<div class="contact_from">
+							<div class="row">
+								<div class="col-md-12">
+									<form id="deliveryform" class="getfrom" accept="" method="">
+										<div class="row">
+											<div class="col-md-6">
+												<div class="form_group">
+													<label>First name<span>*</span></label>
+											    	<input type="text" class="form_control" id="" placeholder="First name" required>
+											  	</div>
+											</div>
+											<div class="col-md-6">
+												<div class="form_group">
+													<label>Phone Number<span>*</span></label>
+											    	<input type="text" class="form_control" id="" placeholder="Phone Number" required>
+											  	</div>
+											</div>
+											<div class="col-md-6">
+												<div class="form_group">
+													<label>Email<span>*</span></label>
+											    	<input type="text" class="form_control" id="" placeholder="Enter Email" required>
+											  	</div>
+											</div>
+											<div class="col-md-6">
+												<div class="form_group">
+													<label>Select Country<span>*</span></label>
+											    	<select name="country" class="form_control" id="country">
+											    		<option value="0" selected="selected">Select a country ...</option>
+											    		<option value="IN">India</option>
+											    		<option value="AF">Afghanistan</option>
+											    		<option value="AU">Australia</option>
+											    		<option value="CA">Canada</option>
+											    		<option value="CN">China</option>
+											    		<option value="HK">Hong Kong</option>
+											    		<option value="IE">Ireland</option>
+											    		<option value="JP">Japan</option>
+											    		<option value="MY">Malaysia</option>
+											    	</select>
+											  	</div>
+											</div>
+											<div class="col-md-6">
+												<div class="form_group">
+													<label>Town / State<span>*</span></label>
+											    	<input type="text" class="form_control" id="" placeholder="Town / State" required>
+											  	</div>
+											</div>
+											<div class="col-md-6">
+												<div class="form_group">
+													<label>Postal / ZIP<span>*</span></label>
+											    	<input type="text" class="form_control" id="" placeholder="Postal / ZIP" required>
+											  	</div>
+											</div>
+											<div class="col-md-12">
+												<div class="form_group">
+													<label>Address 1<span>*</span></label>
+													<textarea class="form_control" id="" name="" rows="1" cols="1" placeholder="Address"></textarea>
+												</div>
+											</div>
+											<div class="col-md-12">
+												<div class="form_group">
+													<label>Address 2<span>*</span></label>
+													<textarea class="form_control" id="" name="" rows="1" cols="1" placeholder="Address"></textarea>
+												</div>
+											</div>
+											<div class="col-md-12">
+												<div class="form_group">
+													<label>Message</label>
+													<textarea class="form_control" id="" name="" rows="5" cols="4" placeholder="Notes about your order, e.g.  special notes for delivery"></textarea>
+												</div>
+											</div>
+										</div>
+									</form>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<div class="col-md-4">
+					<div class="order_summery">
+						<h3>Order Summery</h3>
+
+						<div class="order_checkout d-flex justify-content-between align-items-center flex-sm-row flex-column">
+							<div class="order_info">
+								<span class="order_img"></span>
+								<h6 class="order_title">stevia-drops X 1</h6>
+							</div>
+							<div class="order_price">
+								Rs. 299
+							</div>
+						</div>
+
+						<div class="coupon_wrapp">
+							<h3>Coupon/Offer</h3>
+							<div class="coupon_search">
+								<form action="" method="" class="coupon_from">
+									<div class="form_group">
+										<input type="text" class="form_control" name="coupon" placeholder="Enter coupon code here">
+										<input class="apply_btn" type="submit" value="Apply" />
+									</div>
+								</form>
+							</div>
+							<div class="save_date">
+								<h6><a href="#">SAVE10 <span>click to apply</span></a></h6>
+								<p>Get Extra 10% off on above Rs. 499 upto Rs. 1000</p>
+							</div>
+							<div class="order_price_list">
+	                            <ul>
+	                                <li>
+	                                	<span>Subtotal</span> 
+	                                	<span>Rs. 299.00</span>
+	                                </li>
+	                                <li>
+	                                	<span>Coupon Discount</span> 
+	                                	<span>(-) 0.00</span>
+	                                </li>
+	                                <li>
+	                                	<span>Shipping</span> 
+	                                	<span>Rs. 100</span>
+	                                </li>
+	                            </ul>
+	                        </div>
+	                        <div class="order_total">
+	                            <ul>
+	                                <li class="ordertotal">
+	                                	<h4>Total (INR)</h4>
+	                                	<h6>Inclusive of all Taxes</h6>
+	                                </li>
+	                                <li class="ordertotal_price">
+	                                	<h4>Rs. 399.00</h4>
+	                                </li>
+	                            </ul>
+	                        </div>
+						</div>
+
+						<div class="form_group">
+							<input class="main_btn_bg" type="submit" value="Place Order" />
+						</div>
+
+					</div>
+
+				</div>
+			</div>
+
+		</div>
+
+		<div class="blogwrapp_bg">
+			<img src="assets/imgs/background-bg.png" alt="background-bg">
+		</div>
+		
+	</section>
+	
+</div>
+
+<footer class="footer_wrapp">
+	<div class="footer_bg">
+		<img src="assets/imgs/gallery_bg3.png" alt="gallery_bg3">
+	</div>
+	
+	<div class="footer_bg1">
+		<img src="assets/imgs/union-img.png" alt="union-img">
+	</div>
+
+	<div class="footer_img" style="background-image: url('assets/imgs/footer-img.png');">
+		<div class="footer_height"></div>
+		<div class="container">
+			<div class="row">
+				<div class="col-md-12 col-lg-5">
+					<div class="footer_info">
+						<a href="index.html">
+							<img src="assets/imgs/no-cheeni-white.png" alt="no-cheeni-logo">
+						</a>
+						<p>Sunrise Impex specialize in natural and <br> organic food and personal care products,<br> and we were founded in 2023 in the Pink<br>  City of Jaipur, India. </p>
+					</div>
+				</div>
+				<div class="col-lg-7">
+					<div class="row">
+						<div class="col-md-6">
+							<div class="footer_menu">
+								<h6>Main Menu</h6>
+								<ul>
+									<li>
+										<a href="index.html">Home</a>
+									</li>
+									<li>
+										<a href="about.html">About</a>
+									</li>
+									<li>
+										<a href="#">Products</a>
+									</li>
+									<li>
+										<a href="launch-your-brand.html">Launch your brand</a>
+									</li>
+									<li>
+										<a href="blog.html">Blog & News</a>
+									</li>
+									<li>
+										<a href="contact-us.html">Contact us</a>
+									</li>
+								</ul>
+							</div>
+						</div>
+						<div class="col-md-6">
+							<div class="footer_menu">
+								<h6>Useful Links</h6>
+								<ul>
+									<li>
+										<a href="privacy-policy.html">Privacy Policy</a>
+									</li>
+									<li>
+										<a href="terms-conditions.html">Terms & Conditions</a>
+									</li>
+									<li>
+										<a href="refund-policy.html">Cancellation & Refund Policy</a>
+									</li>
+								</ul>
+
+								<ul class="social_icon">
+									<li>
+										<a href="#">
+											<span class="fa-brands fa-facebook-f"></span>
+										</a>
+									</li>
+									<li>
+										<a href="#">
+											<span class="fa-brands fa-twitter"></span>
+										</a>
+									</li>
+									<li>
+										<a href="#">
+											<span class="fa-brands fa-youtube"></span>
+										</a>
+									</li>
+									<li>
+										<a href="#">
+											<span class="fa-brands fa-instagram"></span>
+										</a>
+									</li>
+								</ul>
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<div class="copyright_conent">
+					<p>Copyright © All rights reserved with Sunrise Impex Pvt. Ltd., Designed & Developed by Mustard</p>
+				</div>
+			</div>
+		</div>
+	</div>
+</footer>
+
+<button id="ui-to-top" class="active"></button>
+
+
+<!-- JS Main Path -->
+<script type="text/javascript" src="assets/js/jquery.js"></script>
+<script type="text/javascript" src="assets/js/bootstrap.js"></script>	
+<script type="text/javascript" src="assets/js/slick.js"></script>
+<script type="text/javascript" src="assets/js/fancybox.js"></script>
+<script type="text/javascript" src="assets/js/custom.js"></script>
+
+</body>
+</html>
